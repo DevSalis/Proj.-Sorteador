@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Sorteador</title>
 </head>
+
 <body>
-    <main>
+    <div class="video-backgrund">
         <video src="./assets/Video_background.mp4" alt="video-roleta-background" autoplay muted loop></video>
-        <h1>SORTEADOR ALEATÓRIO</h1>
-        <input type="number" placeholder="digite um numero de 1 a 100">
-     <input type="number" placeholder="digite um numero de 1 a 100">
-     <button onclick="sortear">Sortear</button>
-     <p class="resultado"></p>
+        <div class="backgrund-mascara"></div>
+    </div>
+
+    <main>
+        <img id="gif-dado" src="./assets/dados-4.gif" alt="gif-dado-girando">
+        <h1>DevSorteador</h1>
+        <p>SORTEAR NÚMERO ALEATÓRIO</p>
+        <section id="inputs">
+            <input type="number" placeholder="Entre de 1">
+            <input type="number" placeholder="a 100">
+        </section>
         
-        
+        <button onclick="sortear">SORTEAR</button>
+        <p class="resultado"></p>
     </main>
 </body>
 <script src="./script.js"></script>
+
 </html>
