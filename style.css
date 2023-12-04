@@ -3,14 +3,16 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Heebo', sans-serif;
+    outline: none;
 }
 
 body {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
-    padding-top: 10%;
+    
     align-items: center;
+    justify-content: center;
 }
 
 .video-backgrund {
@@ -42,7 +44,8 @@ main {
 }
 
 #gif-dado {
-    width: 150px; 
+    width: 150px;
+    
 }
 
 h1 {
@@ -50,9 +53,13 @@ h1 {
     font-size: 50px;
 }
 
-p {
+h2 {
     color: white;
     margin-top: 40px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 38px;
+    text-align: center;
 }
 
 #inputs {
@@ -62,13 +69,18 @@ p {
 }
 
 input {
-    width: 230px;
-    height: 35px;
-    border-radius: 5px;
-    background-color: rgb(71, 70, 70);
+    width: 242px;
+    height: 54px;
+    border-radius: 14px;
+    border: 1px solid rgb(225, 225, 225, 0.2);
+    background-color: rgb(225, 225, 225, 0.25);
     font-size: 15px;
     text-align: center;
     margin-right: 15px;
+    padding-left: 20px;
+    font-weight: 500;
+    line-height: 47px;
+    opacity: 0.7;
    
 }
 
@@ -78,8 +90,29 @@ input::placeholder {
 
 button {
     margin-top: 30px;
-    width: 150px;
+    width: 200px;
     height: 45px;
-    background-color: darkolivegreen;
+    background: #AEC346;
+    box-shadow: 0px 18px 40px rgb(174, 195, 70, 0.35);
+    border-radius: 10px;
+    color: #070707;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 50px;
     color: white;
+    font-weight: 700;
 }
