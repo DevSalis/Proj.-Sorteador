@@ -5,7 +5,7 @@
  <a href="https://rodolfomori.com.br/devclub">DevClub</a></h2>
 </div>
 <br>
-<p align="center"><a href="https://mrsalis.github.io/Proj-Conversor-de-moedas/">Clique aqui e conheça nosso site</a><p/>
+<p align="center"><a href="https://devsorteador-by-silas-felipe.netlify.app/">Clique aqui e conheça nosso site</a><p/>
 <div align="center" style="display: inline_block"><br>
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
